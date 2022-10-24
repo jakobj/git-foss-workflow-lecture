@@ -1,1 +1,1 @@
-from meaningful.stats import mean
+import meaningful.stats as stats
