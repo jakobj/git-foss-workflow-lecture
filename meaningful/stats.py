@@ -4,4 +4,4 @@ def mean(l):
 
 def variance(l):
     n = len(l)
-    return 1.0/(n) * sum((l-mean(l))**2) 
+    return 1.0 / n * sum((x-mean(l))**2 for x in l) 
